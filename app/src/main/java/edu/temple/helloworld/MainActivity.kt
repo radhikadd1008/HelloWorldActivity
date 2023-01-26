@@ -25,9 +25,9 @@ class MainActivity : AppCompatActivity() {
         // Respond to button click event
         clickMeButton.setOnClickListener{
 
-            /* Write your code here */
+            displayTextView.text = "Hello, ${nameEditText.text}!"
 
-            displayTextView.text = "Write code to print a greeting with the entered name when the button is clicked"
+            // displayTextView.text = "Write code to print a greeting with the entered name when the button is clicked"
 
         }
 
